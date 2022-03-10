@@ -1,0 +1,146 @@
+@media screen and (max-width: 480px){
+  #coco-main{
+    background-image: url("../images/coco-background.jpeg");
+    background-color: white;
+  }
+
+  #coco-main p{
+    color: white;
+  }
+
+  h1, p{
+    font-family: 'League Spartan', sans-serif;
+  }
+
+  input[type=text], select, textarea[id="other-movies"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    resize: vertical
+  }
+  
+  input[type=submit] {
+    background-color: #1c3a46;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #346d83;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+}
+
+nav{
+  background-color: #FFEECF;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 5px 5px teal;
+  margin: 20px;
+  padding: 8px;
+}
+
+nav li{
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+.active{
+  background-color: #ffdc9b;
+  font-weight: bold;
+  border: 5px dashed #ffd17b; 
+  border-radius: 10px;
+}
+
+a{
+  font-size: 18px;
+  color: #326273;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2;
+}
+
+a.skip{
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #326273;
+  text-decoration: none;
+  text-transform: lowercase;
+  line-height: 2;
+  border-radius: 10px;
+  box-shadow: 4px 4px #1c3a46;
+  margin: 25px;
+  padding: 10px;
+}
+
+a:hover{
+  color: #608d9e;
+  text-decoration: underline;
+}
+
+body{
+  font-family: Sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1{
+  font-size: 32px;
+  color: #326273;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+}
+
+p{
+  font-size: 14pt;
+  color: #000000;
+  line-height: 2;
+  padding: 10px;
+  margin: 20px 60px;
+  text-align: justify;
+}
+
+img.movie-poster{
+  width: 500px;
+  padding: 0px;
+  margin: 25px;
+  border-radius: 5px;
+  border: 2px #0c688a dashed;
+}
+
+img{
+  width: 400px;
+  padding: 5px;
+  margin: 25px;
+  border: 2px solid #7299E1;
+  border-radius: 20px;
+}
+
+img:nth-child(2n):hover{
+  filter: grayscale();
+  transform: scale(1.1);
+
+}
+
+ul{
+  list-style: square;
+  color: #102A51;
+}
+
+footer{
+  color: #1C64D3;
+}
