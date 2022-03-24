@@ -39,8 +39,11 @@
 	</header>
 
 	<main id='main'>
+
+	</div>
+
 		<div class='grid-container'>
-			<img src = "images/spiritedaway_poster.jpg" class = 'movie-poster-1' id = "spiritedaway-poster" alt = "Spirited Away poster"/>
+			<img src = "images/spiritedaway_poster.jpg" class = 'movie-poster-1' id = "spiritedaway-poster" alt = "Spirited Away poster"/></a>
 			<img src = "images/coco_poster.jpeg" class = 'movie-poster-2' id = 'coco-poster' alt = "Coco poster"/>
 			<img src = "images/chungking_poster.jpg" class = 'movie-poster-3' id = 'chungking-poster' alt = "Chungking Express poster"/>
 		</div>
@@ -55,6 +58,39 @@
             how traditional Mexican culture values the deceased through the film Coco, or how important identity plays a role in Japan through Spirited Away.
             Now, let's dive into each film and how they introduce diverse culture and values. 
         </p>
+
+		<button id="howto-button">How to browse this site</button>
+
+		<div id="howto-modal" class="modal">
+	
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<p>I'm introducing three movies that are from/about diverse culture in this website!
+				<br>Click the navigation above to read more about each movie.
+				<br>If you have a movie suggestion for me, please click "Contact" and leave me a message!</p>
+		</div>
+	
+		<script>
+			var modal = document.getElementById("howto-modal");
+	
+			var btn = document.getElementById("howto-button");
+	
+			var span = document.getElementsByClassName("close")[0];
+	
+			btn.onclick = function() {
+			modal.style.display = "block";
+			}
+	
+			span.onclick = function() {
+			modal.style.display = "none";
+			}
+	
+			window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+				}
+			}
+		</script>
 	
 	</main>
 
