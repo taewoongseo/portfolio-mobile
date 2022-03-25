@@ -291,3 +291,16 @@ footer{
   text-decoration: none;
   cursor: pointer;
 }
+
+.coco-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.coco_img {
+  margin: auto;
+  width: 85%;
+  display: block;
+}
